@@ -9,7 +9,7 @@ export default function InputComponent(){
 
     return (
         <>
-            <input value={inputText} onChange={InputComponent} />
+            <input value={inputText} onChange={handleChange} />
             <p>You typed: {inputText}</p>
             <button onClick={() => setText('hello')}>
                 Reset
